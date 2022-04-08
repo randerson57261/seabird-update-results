@@ -14,7 +14,7 @@ load_dotenv() #You need to have the .env file located in \manual
 #This is the databse URL
 
 #--------------Open CSV file --------------------------------#
-b_results = pd.read_csv("data/breeding_2022_0403.csv")
+b_results = pd.read_csv("manual/data/breeding_2022_0403.csv")
 
 #--------------update internal results database ---------------#
 DATABASE_URL = os.environ.get('SEABIRD_DATABASE_URL')
