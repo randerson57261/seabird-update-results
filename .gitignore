@@ -1,0 +1,7 @@
+.env
+Profile.windows
+requirements_full_list.txt
+Pipfile
+Pipfile.lock
+archive
+.venv
